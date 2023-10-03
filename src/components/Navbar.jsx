@@ -156,7 +156,7 @@ const Navbar = ({ mode, toggle }) => {
         >
           {list()}
         </SwipeableDrawer>
-        <BrandToolbar sx={{ gap: "15px", cursor: "pointer" }}>
+        <BrandToolbar>
           <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>Connect
           </Typography>
           <Cable fontSize="large" />
@@ -164,7 +164,7 @@ const Navbar = ({ mode, toggle }) => {
         <Search>
           <InputBase placeholder="Search ..." sx={{ color: "black" }} />
         </Search>
-        <Icons sx={{ cursor: "pointer" }}>
+        <Icons>
           <Badge badgeContent={4} color="error">
             <Mail />
           </Badge>
